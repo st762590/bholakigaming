@@ -783,6 +783,10 @@ html::-webkit-scrollbar {
     .download h2 {
         margin: 0;
     }
+    
+    a{
+      color: white;
+    }
 
     .up-page {
         display: none;
