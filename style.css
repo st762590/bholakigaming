@@ -815,3 +815,27 @@ html::-webkit-scrollbar {
         font-size: 0.75rem;
     }
 }
+
+.product-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.product-tabs .btn {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s ease, color 0.5s ease;
+  text-decoration: none;
+}
+
+.product-tabs .btn.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.product-tabs .btn:hover {
+}
